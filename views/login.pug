@@ -1,6 +1,9 @@
 extends layout
 
 block content
+    br
+    br
+    br
     h1 Login
     if errors != undefined && errors.length != 0
         each error in errors
@@ -24,6 +27,6 @@ block content
             tr
                 td
                 td
-                    input(type='submit' value='Go')
+                    input(type='submit' value='Go' class="go")
     p No account?&nbsp;
       a(href='/users/register') Register

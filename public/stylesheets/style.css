@@ -5,4 +5,41 @@ body {
 
 a {
   color: #00B7FF;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menubar a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.menubar a:hover {
+  color: #A561F7;
+}
+
+#myforml, #myformr {
+  background-color: rgba(188, 143, 143, 0.7);
+  padding: 3%;
+  border-radius: 20px;
+  width: 50%;
+}
+
+table {
+  margin-left: 20%;
+}
+
+input {
+  padding: 5%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #cfcfcf;
+}
+
+.go {
+  background-color: #C7FECB;
 }
